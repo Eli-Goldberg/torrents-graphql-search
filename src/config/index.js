@@ -3,7 +3,7 @@ const envConfig = require('./' + env);
 const _ = require('lodash');
 
 const baseConfig = {
-  appName: 'Torrents GraphQL Backend',
+  appName: 'Torrents GraphQL Search',
   port: 8080
 };
 

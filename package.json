@@ -1,5 +1,5 @@
 {
-  "name": "torrents-graphql-backend",
+  "name": "torrents-graphql-search",
   "version": "0.0.1",
   "description": "A torrents graphql example",
   "main": "server.js",
