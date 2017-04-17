@@ -1,0 +1,12 @@
+node_modules/*
+
+# ------ logs -------
+npm-debug.log.*
+npm-debug.log
+logs/*
+
+# ------ IDE config files ------
+.tern-project
+.vscode/*
+
+*.zip

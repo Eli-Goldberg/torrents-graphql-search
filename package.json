@@ -1,0 +1,46 @@
+{
+  "name": "torrents-graphql-backend",
+  "version": "0.0.1",
+  "description": "A torrents graphql example",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server",
+    "eslint": "eslint src/",
+    "eslint:watch": "nodemon -e js -x 'npm run eslint'",
+    "test": "NODE_ENV=test mocha test/**",
+    "test:watch": "nodemon -e js -x 'npm run test'",
+    "pretest": "npm run eslint"
+  },
+  "author": "Eli Goldberg",
+  "license": "ISC",
+  "dependencies": {
+    "bluebird": "3.5.0",
+    "bunyan": "1.8.8",
+    "del": "2.2.2",
+    "imdb-api": "2.2.2",
+    "install": "0.8.7",
+    "koa": "2.0.1",
+    "koa-bodyparser": "4.1.0",
+    "koa-qs": "2.0.0",
+    "koa-router": "next",
+    "lodash": "4.17.4",
+    "mkdirp": "0.5.1",
+    "seek-torrent": "1.0.1",
+    "uuid": "3.0.1"
+  },
+  "engines": {
+    "node": "> 7.6"
+  },
+  "devDependencies": {
+    "chai": "3.5.0",
+    "eslint": "3.17.0",
+    "minimist": "1.2.0",
+    "mocha": "3.2.0",
+    "mock-require": "2.0.1",
+    "nodemon": "1.11.0",
+    "rewire": "2.5.2",
+    "run-sequence": "1.2.2",
+    "supertest": "3.0.0",
+    "supertest-as-promised": "4.0.2"
+  }
+}
