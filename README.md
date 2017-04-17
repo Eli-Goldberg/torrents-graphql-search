@@ -1,7 +1,7 @@
-# torrents-graphql-backend
+# torrents-graphql-search
 [![Build Status](https://travis-ci.org/Eli-Goldberg/koa-starter-kit.svg?branch=master)](https://travis-ci.org/Eli-Goldberg/koa-starter-kit)
 
-> This a sample GraphQL project to search for torrents [seek-torrent](https://github.com/Eli-Goldberg/seek-torrent)
+> This a sample GraphQL project to search for torrents using [seek-torrent](https://github.com/Eli-Goldberg/seek-torrent)
 
 * GraphQL endpoints for torrents / movie data
 * Rest endpoints for comparison

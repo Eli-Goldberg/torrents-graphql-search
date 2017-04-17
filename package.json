@@ -11,6 +11,10 @@
     "test:watch": "nodemon -e js -x 'npm run test'",
     "pretest": "npm run eslint"
   },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Eli-Goldberg/torrents-graphql-search.git"
+  },
   "author": "Eli Goldberg",
   "license": "ISC",
   "dependencies": {
