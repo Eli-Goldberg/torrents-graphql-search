@@ -13,7 +13,12 @@
 * Environments
 * Shrinkwrapped for Production
 
-## Usage
+## Graph QL
+You can use the GraphiQL in-browser docs:
+> http://localhost:8080/graphql 
+
+
+## REST Api 
 
 ### Searching For movies
 
