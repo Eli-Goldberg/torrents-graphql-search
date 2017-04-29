@@ -21,6 +21,10 @@
     "bluebird": "3.5.0",
     "bunyan": "1.8.8",
     "del": "2.2.2",
+    "graphql": "0.9.3",
+    "graphql-server-koa": "0.7.1",
+    "graphql-subscriptions": "0.3.1",
+    "graphql-tools": "0.11.0",
     "imdb-api": "2.2.2",
     "install": "0.8.7",
     "koa": "2.0.1",
@@ -38,6 +42,7 @@
   "devDependencies": {
     "chai": "3.5.0",
     "eslint": "3.17.0",
+    "koa-custom-graphiql": "1.0.0",
     "minimist": "1.2.0",
     "mocha": "3.2.0",
     "mock-require": "2.0.1",

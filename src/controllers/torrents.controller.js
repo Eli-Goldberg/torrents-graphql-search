@@ -1,4 +1,4 @@
-const seekTorrent = require('seek-torrent');
+const torrentService = require('../services/torrentService');
 
 const TYPES = ['movie', 'series'];
 
@@ -19,13 +19,10 @@ function validate(query, type) {
 
 async function search(ctx) {
   const { q: query, type } = ctx.query;
-  let options = {};
 
   validate(query, type);
 
-  if (type) options.type = type;
-
-  const results = await seekTorrent.search(query, options);
+  const results = await torrentService.search(query, type);
   ctx.body = results;
 }
 
